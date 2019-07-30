@@ -1,0 +1,28 @@
+<%= form_with(model: skateboard, local: true) do |form| %>
+  <% if skateboard.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(skateboard.errors.count, "error") %> prohibited this skateboard from being saved:</h2>
+
+      <ul>
+      <% skateboard.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :design %>
+    <%= form.text_field :design %>
+  </div>
+
+  <div class="field">
+    <%= form.label :board_type %>
+    <%= form.text_field :board_type %>
+  </div>
+
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

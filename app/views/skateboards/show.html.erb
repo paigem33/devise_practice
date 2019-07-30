@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Design:</strong>
+  <%= @skateboard.design %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @skateboard.board_type %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @skateboard.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_skateboard_path(@skateboard) %> |
+<%= link_to 'Back', skateboards_path %>
