@@ -1,24 +1,7 @@
-# README
+# Practice with Devise 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## User stories
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Create A new Rails Application, and add Skateboard Crud - Index, Create, Edit, Delete
+* Add Devise to protect all the Scateboard pages
+* Generate the Registration/Login views and improve their UI.
